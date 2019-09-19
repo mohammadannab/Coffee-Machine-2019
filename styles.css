@@ -1,0 +1,57 @@
+.btn{
+	border: none;
+	border-radius: 10%;
+	font-size: 20px;
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+}
+#milkButton{
+	background-color: white;
+	}
+
+#coffeeButton{
+	background-color: brown;
+}
+
+#quantity1{
+	background-color: yellow;
+
+}
+
+#quantity2{
+	background-color: yellow;
+
+}
+
+#quantity3{
+	background-color: yellow;
+
+}
+
+#power{
+	background-color: red;
+
+}
+
+
+body{
+	background-image: url("https://whichnespresso.com/wp-content/uploads/hero-citiz-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 670px;
+}
+
+
+
+.header{
+	color: brown;
+	text-align: left;
+	font-size: 130px;
+	font-family: French Script MT;
+}
+
+.intro{
+	color: grey;
+	font-size: 25px;
+}

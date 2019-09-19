@@ -41,13 +41,13 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 670px;
-  background: #161616;
+  
   color: #bdbdbd;
   font-weight: 300;
-  margin: 0;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  margin: 30px;
+  align-items: left
+  justify-content: left;
+  text-align: left;
   font-family: Helvetica neue, roboto;
 }
 

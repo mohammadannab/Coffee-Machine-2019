@@ -30,9 +30,13 @@
 
 }
 
-#power{
+#powerOn{
 	background-color: red;
 
+}
+
+#powerOff{
+	background-color: red;
 }
 
 
@@ -41,14 +45,13 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 670px;
-  
-  color: #bdbdbd;
-  font-weight: 300;
-  margin: 30px;
-  align-items: left
-  justify-content: left;
-  text-align: left;
-  font-family: Helvetica neue, roboto;
+  	color: #bdbdbd;
+  	font-weight: 300;
+  	margin: 30px;
+  	align-items: left;
+  	justify-content: left;
+  	text-align: left;
+  	font-family: Helvetica neue, roboto;
 }
 
 
@@ -67,10 +70,19 @@ body{
 
 
 #screen {
-  background-color: yellow;
-  border: 2px solid #d30808;
-  height: 150px;
-  width: 300px;
+  background-color: white;
+  border: 5px solid black;
+  height: 250px;
+  width: 690px;
   margin: 10px;
-  
+  font-size: 150px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+
+
+#welcome{
+	font-size: 30px;
 }

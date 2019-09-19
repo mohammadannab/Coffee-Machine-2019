@@ -1,4 +1,5 @@
 
+
 var powerButtonToggle = {value:false}
 var power = $('#power');
 var px = $('#welcome');
@@ -26,5 +27,4 @@ power.on('click', function(){
 
 
 
-// jbeoiheoizhzehbhlirhisr
-console.log('hi');
+

@@ -1,3 +1,4 @@
+
 .btn{
 	border: none;
 	border-radius: 10%;
@@ -40,6 +41,14 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 670px;
+  background: #161616;
+  color: #bdbdbd;
+  font-weight: 300;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Helvetica neue, roboto;
 }
 
 
@@ -54,4 +63,14 @@ body{
 .intro{
 	color: grey;
 	font-size: 25px;
+}
+
+
+#screen {
+  background-color: yellow;
+  border: 2px solid #d30808;
+  height: 150px;
+  width: 300px;
+  margin: 10px;
+  
 }

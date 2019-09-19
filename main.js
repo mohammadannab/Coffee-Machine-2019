@@ -23,3 +23,8 @@ power.on('click', function(){
 	// button.value = !button.value;
 	// return button.value;
 })
+
+
+
+// jbeoiheoizhzehbhlirhisr
+console.log('hi');

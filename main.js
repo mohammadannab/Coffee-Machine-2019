@@ -1,23 +1,30 @@
 
-var buttons = {
 
-  powerButtonToggle: false,
-  
+var powerButtonToggle = {value:false}
+var power = $('#power');
+var px = $('#welcome');
 
-  toggle: function(){
-    this.powerButtonToggle = !this.powerButtonToggle;
-  }
+
+power.on('click', function btns(button){
+	button.value = !button.value;
+	return button.value;
+})
+
+
+function btns(button){
+	button.value = !button.value;
+	return button.value;
 }
 
 
-$('#powerButton').on('click', function(){
-  
-  buttons.toggle(buttons.powerButtonToggle)
 
 
-  if(buttons.powerButtonToggle === true) {
-     return 'Good morning!';
-  } else {
-    return 'Goodbye!'
-  }
-});
+power.on('click', function(){
+	px.append("the machin is on");
+	// button.value = !button.value;
+	// return button.value;
+})
+
+
+
+
